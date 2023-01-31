@@ -1,3 +1,4 @@
+/*RESET*/
 *{
     margin: 0;
     padding: 0;
@@ -7,6 +8,68 @@
 /*common*/
 body{
     font-family: 'Roboto', sans-serif;
-   
+    background-color:#F6F8F9 ;
+    text-decoration:none;
+}
+.paging1{
+    background-color: #fff;
+    border-bottom: 2px solid #F6F8F9;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1.5rem 3rem;
+    border-radius: 10px 10px 0px 0px;
+}
+.paging{
+    background-color: #fff;
+    
+    width: 70%;
+    margin: 0 auto;
+    padding: 1.5rem 3rem;
+    border-radius: 0px 0px 10px 10px;
+}
+.btn{
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    
+}
+.container li{
+    list-style-type: none;
+    font-weight: 900;
+    font-size: larger;
 
 }
+.container a {
+    text-decoration: none;
+    color: black;
+}
+
+/*header*/  /*scusate l utilizzo di flexbox ma credo sia 1000 volte più semplice e responsive*/
+
+.header{
+    display: flex;
+    background-color: #fff;
+    height: 80px;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 3rem;
+}
+
+.header img{
+    max-height: 50px;
+    max-width: 50px;
+}
+
+.header h1{
+    display: inline-block;
+    font-weight: 900;
+    font-size: 46px;
+}
+
+
+
+
+
+
