@@ -16,12 +16,11 @@ body{
     border-bottom: 2px solid #F6F8F9;
     width: 70%;
     margin: 0 auto;
-    padding: 1.5rem 3rem;
+    padding: 0.5rem 3rem;
     border-radius: 10px 10px 0px 0px;
 }
 .paging{
     background-color: #fff;
-    
     width: 70%;
     margin: 0 auto;
     padding: 1.5rem 3rem;
@@ -30,8 +29,9 @@ body{
 .btn{
     border: none;
     background-color: #fff;
+}
+input{
     cursor: pointer;
-    
 }
 .container li{
     list-style-type: none;
@@ -68,8 +68,42 @@ body{
     font-size: 46px;
 }
 
+/*Add-buttons styling*/
+.add-buttons{
+    display: flex;
+    align-items: center;
+}
+.add-btn{
+    background-color: #47ADF1;
+    border: 2px solid #F6F8F9;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.3rem;
+    color: #fff;
+    font-weight: bold;
 
-
+}
+.add-btn2{
+    background-color: #fff;
+    border: 2px solid #DFE3E5;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    margin-right: 0.3rem;
+    color: #DFE3E5;
+    font-weight: bold;
+}
+.add-btn2:hover{
+    transition: 500ms;
+    border: none;
+    color: #fff;
+    background-color:#8DCD64 ;
+}
+.add-btn:hover{
+    transition: 500ms;
+    border: none;
+    color: #fff;
+    background-color:#8DCD64 ;
+}
 
 
 
