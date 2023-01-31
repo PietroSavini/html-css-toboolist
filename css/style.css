@@ -32,14 +32,14 @@ body{
 }
 input{
     cursor: pointer;
+    
 }
-.container li{
+.section-container li{
     list-style-type: none;
     font-weight: 900;
-    font-size: larger;
-
+    font-size: 25px;
 }
-.container a {
+.section-container a {
     text-decoration: none;
     color: black;
 }
@@ -75,7 +75,7 @@ input{
 }
 .add-btn{
     background-color: #47ADF1;
-    border: 2px solid #F6F8F9;
+    border: 2px solid #47ADF1;
     border-radius: 5px;
     padding: 0.3rem 0.5rem;
     margin-right: 0.3rem;
@@ -104,6 +104,24 @@ input{
     color: #fff;
     background-color:#8DCD64 ;
 }
+
+/*styling of the sections*/
+
+.section-container{
+    margin-bottom: 2rem ;
+    border: 2px solid black;
+}
+
+.checks li{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom:1rem;
+    
+}
+.checks input{
+    margin-right: 0.8rem;
+}
+
 
 
 
