@@ -11,7 +11,10 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<!-- so benissimo di aver fatto di testa mia ma volevo provare a fare qualcosa di più avanzato, mi scuso in anticipo con Olga (non sei tu che hai spiegato male, sono io che sono malato) per aver utilizzato Flexbox invece dei comandi base per l'allignment degli elementi in CSS. ma avendo inserito gli input e lables sarei uscito pazzo senza l utilizzo di" Display: Flex;"..   detto questo spero vada bene lo stesso :] -->
+<!-- so benissimo di aver fatto di testa mia ma volevo provare a fare qualcosa di più avanzato, mi scuso in anticipo con Olga per aver utilizzato Flexbox invece dei comandi base per l'allignment degli elementi in CSS. (non sei tu che hai spiegato male anzi sei bravissima :D, semplicemente sono io che sono malato) ma avendo inserito gli input e lables sarei uscito pazzo senza l utilizzo di" Display: Flex;"..   detto questo spero vada bene lo stesso, tanto in linea teorica oggi si fa tutto con flexbox/flex grid :] 
+
+
+Ovviamente le checkbox sono interattive-->
 
 
 <body>
@@ -23,50 +26,128 @@
         </div>
     </header>
     <!-- end of header -->
+
+    <!-- main section -->
     <main>           
-        <!-- main section -->
-            <!-- paging div for layout -->
-            <div class="paging1">
-                <!-- section add-buttons -->
-                <section class="add-buttons">
-                    <input type="button" value="Add Task" class="add-btn">
-                    <input type="button" value="Add section" class="add-btn2">
-                </section>
-                <!-- end of section add buttons -->
-            </div>
-            <!-- 2nd paging div for layout -->
-            <div class="paging">
-            
-            <!-- section tasks -->
-            <section class="section-container">
-               <ul>
-                 <li>
-                    <input type="button" value="&#9660;" class="btn">  New Task
-                    <ul class="checks">
-                        <li>
-                            <div class="checkbox-container">
-                                <input type="checkbox" name="" value="" class="checkbox"id="cb1">
-                                <label for="cb1">Quarterly Newsletter</label>
-                                <span id="editorial">Editorial</span>
-                            </div>
-                            
-                        </li>
-                        
-                    </ul>
 
-                 </li>
-               </ul>
+        <!-- paging div for layout -->
+        <div class="paging1">
+
+            <!-- section add-buttons -->
+            <section class="add-buttons">
+                <input type="button" value="Add Task" class="add-btn">
+                <input type="button" value="Add section" class="add-btn2">
             </section>
-            <!-- end of section tasks -->
-            
-           
+            <!-- end of section add buttons -->
+        </div>
 
+        <!-- 2nd paging div for layout -->
+        <div class="paging">
 
-           
-        </main>
+            <!-- Ul for main menu -->
+            <ul>
 
-    </div>
+                <!-- Section "NEW TASK" -->
+                <section class="section-container">
+                    <li>
+                        <input type="button" value="&#9660;" class="btn">New Task
+                        <ul class="checks">
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb1">
+                                    <label for="cb1">Quarterly Newsletter</label>
+                                    <span id="editorial">Editorial</span>
+                                </div>
+                            </li>  
+                        </ul>
+                    </li>
+                </section>
+                <!-- end of section "NEW TASK" -->
 
-    
+                <!-- Section "TODAY" -->
+                <section class="section-container">
+                    <li>
+                        <input type="button" value="&#9660;" class="btn">Today
+                        <ul class="checks">
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb2">
+                                    <label for="cb2">Recruiting blog post</label>
+                                    <span id="editorial">Editorial</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb3">
+                                    <label for="cb3">Mobile app Launch</label>
+                                    <span id="q1-goals">Q1 Goals</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb4">
+                                    <label for="cb4">Interview Jhon H.</label>
+                                    <span id="recruiting">Recruiting</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb5">
+                                    <label for="cb5">Summit update to mobile storefronts</label>
+                                    <span id="mobile">Mobile</span>
+                                </div>
+                            </li>      
+                        </ul>
+                    </li>
+                </section>
+                <!-- End of "TODAY" Section -->
+
+                <!-- Section Upcoming -->
+                <section class="section-container">
+                    <li>
+                        <input type="button" value="&#9660;" class="btn">Today
+                        <ul class="checks">
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb6">
+                                    <label for="cb6">Schedule meeting with Alex</label>
+                                    
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb7">
+                                    <label for="cb7">Homepage refresh</label>
+                                    <span id="website">Website</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb8">
+                                    <label for="cb8">Onboard new Sales team members</label>
+                                    <span id="sales">Sales</span>
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" name="" value="" class="checkbox"id="cb9">
+                                    <label for="cb9">Review editorial calendar</label>
+                                    <span id="editorial">Editorial</span>
+                                </div>
+                            </li>      
+                        </ul>
+                    </li>
+                </section>
+                    <!-- End of section "Upcoming" -->
+            </ul>
+            <!-- end of Ul for main menu-->
+        </div>
+    </main>
 </body>
 </html>
